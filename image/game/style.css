@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+}
+
+.tile {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tile.matched {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Define colors for each data-color attribute */
+.tile[data-color="red"] {
+    background-color: #ff5733;
+}
+
+.tile[data-color="blue"] {
+    background-color: #33a8ff;
+}
+
+.tile[data-color="green"] {
+    background-color: #33ff5a;
+}
+
+.tile[data-color="yellow"] {
+    background-color: #fff933;
+}
+
+.tile[data-color="purple"] {
+    background-color: #a433ff;
+}
+
+.tile[data-color="orange"] {
+    background-color: #ff9f33;
+}

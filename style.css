@@ -106,6 +106,8 @@ body {
     font-size: 14px;
     overflow: hidden;
     margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -151,6 +153,7 @@ body {
     position: absolute;
     justify-content: center;
     margin-top: -50px;
+    z-index: 99;
 
 
 }
@@ -222,7 +225,8 @@ body {
     width: 100%;
     background-color: #fff;
     overflow: hidden;
-    position: absolute;
+    position: relative;
+    z-index: 1;
     
 
 }
