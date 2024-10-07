@@ -147,7 +147,7 @@ body {
     padding: 10px 40px;
     display: inline-flex;
     overflow: hidden;
-    margin-left: 250px;    
+    margin-left: 550px;    
     border-radius: 5px;
     border: 1px solid #E2E2E2;
     position: absolute;
@@ -239,11 +239,11 @@ body {
     overflow: hidden;
     height: auto;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    display: block
 
 }
 
@@ -262,9 +262,6 @@ body {
 
 }
 
-.firstcard {
-    margin-left: 150px;
-}
 
 .lastcard {
     padding-left: 20px;
@@ -340,7 +337,7 @@ body {
     max-width: 1010px;
     max-height: 680px;
     justify-content: center;
-    margin-left: 130px;
+    margin-left: 450px;
     margin-top: 40px;
     background-color: #ffffff;
     overflow: hidden;
@@ -495,7 +492,7 @@ body {
 
 .latest-section .house {
     overflow: hidden;
-    margin-left: 160px;
+    margin-left: 450px;
 
 }
 
@@ -685,7 +682,7 @@ body {
 }
 
 .featured .main-list {
-    margin-left: 120px;
+    margin-left: 450px;
     max-height: 150px;
     width: auto;
 
